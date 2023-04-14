@@ -32,7 +32,6 @@
  }
 
  # perform a auth and bgsave before copy
-## echo auth default L@b$eSSi0n#2023 | $cli        ##remove temporary
  echo bgsave | $cli
  echo "[$port] waiting for $wait seconds..."
  sleep $wait
