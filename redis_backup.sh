@@ -24,7 +24,8 @@
    echo "[$port] Create backup directory $backup_dir" && mkdir -p $backup_dir
  }
 
- # perform a bgsave before copy
+ # perform a auth and bgsave before copy
+ echo auth L@b$eSSi0n#2023 | $cli
  echo bgsave | $cli
  echo "[$port] waiting for $wait seconds..."
  sleep $wait
